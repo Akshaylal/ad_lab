@@ -1,3 +1,7 @@
 # ad_lab
 
-```$ make
+```bash
+make
+make clean
+make random
+```
