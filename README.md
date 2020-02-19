@@ -1,2 +1,3 @@
 # ad_lab
-ad_lab
+
+```$ make
