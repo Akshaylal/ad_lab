@@ -1,14 +1,18 @@
 SOURCES=$(wildcard *.c)
 
-EXECS=$(SOURCES:%.c=%)
+EXECS=$(SOURCES:%.c=%.out)
 
 all: $(EXECS)
 
 run: $(EXECS)
 	./$(EXECS)
 
-%.o: %.cpp
-	g $< -o $@
+%.out: %.c
+	gcc $< -o $@
 
 clean:
 	rm $(EXECS)
+
+random:
+	gcc rangen/aio.c -o aio
+	./aio
