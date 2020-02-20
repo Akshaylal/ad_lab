@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//#define MAXELE 10
+//#define MAXELE 100
+//#define MAXELE 1000
+//#define MAXELE 10000
 #define MAXELE 100000
 
 void main(){
