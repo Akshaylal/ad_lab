@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 #include <time.h>
-#define MAXELE 100000
+#define MAXELE 10
 
 void main(){
 	int i,j,k,ar[MAXELE],n,key;
